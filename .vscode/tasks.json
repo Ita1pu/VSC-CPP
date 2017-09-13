@@ -1,6 +1,11 @@
 {
     "version": "0.1.0",
-    "command": "make",
+    "linux": {
+        "command": "make"
+    },
+    "windows": {
+        "command": "${workspaceRoot}/dependencies/windows/make-3.81-bin/bin/make.exe"
+    }, 
     "isShellCommand": true,
     "tasks": [
         {            

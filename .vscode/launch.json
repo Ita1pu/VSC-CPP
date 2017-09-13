@@ -10,8 +10,11 @@
                 "stopAtEntry": false,
                 "cwd": "${workspaceRoot}",
                 "environment": [],
-                "externalConsole": false,
+                "externalConsole": true,
                 "MIMode": "gdb",
+                "windows": {
+                    "miDebuggerPath": "${workspaceRoot}/dependencies/windows/MinGW/bin/gdb.exe"
+                },                
                 "setupCommands": [
                     {
                         "description": "Enable pretty-printing for gdb",

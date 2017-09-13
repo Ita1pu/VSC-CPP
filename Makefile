@@ -1,2 +1,2 @@
 all: 
-	g++ source/main.cpp -o binary/helloworld
+	g++ source/main.cpp -g -o binary/helloworld
