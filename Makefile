@@ -1,2 +1,5 @@
+SRC_DIR := ./source
+SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
+
 all: 
-	g++ source/main.cpp -g -o binary/helloworld
+	g++ $(SRC_FILES) -g -o binary/helloworld
