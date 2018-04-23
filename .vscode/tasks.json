@@ -1,14 +1,14 @@
 {
     "version": "0.1.0",
-    "linux": {
-        "command": "make"
-    },
-    "windows": {
-        "command": "${workspaceRoot}/dependencies/windows/make-3.81-bin/bin/make.exe"
-    }, 
     "isShellCommand": true,
     "tasks": [
-        {            
+        { 
+            "linux": {
+                "command": "make"
+            },
+            "windows": {
+                "command": "${workspaceRoot}/dependencies/windows/make-3.81-bin/bin/make.exe"
+            }, 
             "taskName": "Makefile",
             // Make this the default build command.
             "isBuildCommand": true,
